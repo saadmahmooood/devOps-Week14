@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Lint HTML and CSS
         run: |
-          npx htmlint "**/*.html"
+          npx htmlhint "**/*.html"
           npx stylelint "**/*.css" 
   develop-build: # auto combine target and feature commits in temp branch 
     runs-on: ubuntu-latest

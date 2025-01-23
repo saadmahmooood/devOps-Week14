@@ -13,8 +13,8 @@ jobs:
         run: |
           npx htmlhint "**/*.html"
           npx stylelint "**/*.css" 
-  develop-build: # auto combine target and feature commits in temp branch 
-    runs-on: ubuntu-latest
-    steps: 
       - name: Build Website
         run: npx parcel build "./src/index.html" --dist-dir "./dev" --public-url "./"
+
+
+      

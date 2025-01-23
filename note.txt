@@ -1,0 +1,5 @@
+1- basic initialisation
+2- envioronments build
+3- vreate workflows
+4- branch protetion rules 
+5- acyual development

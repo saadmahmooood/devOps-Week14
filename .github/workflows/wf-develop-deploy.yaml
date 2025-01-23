@@ -18,7 +18,7 @@ jobs:
           name: "develop-artifact"
   develop-deploy-job:
     needs: "develop-build-job"
-    envioronment: "development-env"
+    environment: "development-env"
     permissions:
       pages: write
       id-token: write

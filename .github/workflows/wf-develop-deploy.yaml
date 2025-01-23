@@ -12,7 +12,7 @@ jobs:
       - name: Build Website
         run: npx parcel build "./src/index.html" --dist-dir "./dev" --public-url "./"
       - name: Upload Build Artifact
-        uses: actions/uplaod-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "./dev"
           name: "develop-artifact"
